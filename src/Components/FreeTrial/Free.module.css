@@ -1,0 +1,32 @@
+.freetrail {
+  position: relative;
+}
+.freetrail img {
+  height: 40rem;
+  width: 100%;
+  opacity: 0.2;
+}
+.content {
+  position: absolute;
+  top: 13rem;
+  left: 2rem;
+}
+.content h1 {
+  font-size: 3rem;
+  font-style: italic;
+  color: rgb(49, 155, 150);
+}
+.content p {
+  font-size: 1.5rem;
+}
+
+.Button {
+  margin-top: 6rem;
+  color: grey;
+}
+.icon {
+  font-size: 2rem;
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,41 @@
+.main {
+  background-color: gainsboro;
+  margin-top: 2rem;
+}
+.main h2 {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 3rem;
+  border-bottom: 5px solid #000;
+}
+.main h2:hover {
+  color: rgb(60, 7, 99);
+}
+.division {
+  height: 20rem;
+  position: relative;
+  display: flex;
+  margin: 2rem 2rem;
+}
+.division p {
+  display: flex;
+  justify-content: flex-start;
+  width: 60rem;
+  font-size: 1rem;
+  padding-right: 4rem;
+}
+.division img {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 0;
+  transition: transform 0.2s;
+}
+.division img:hover {
+  z-index: 1;
+  transform: scale(1.25);
+}

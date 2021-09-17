@@ -1,0 +1,87 @@
+.main {
+  background-image: linear-gradient(to right, rgb(238, 215, 215), #000);
+  margin: 0;
+  padding: 0;
+  height: 17rem;
+  border-bottom: darkblue;
+  position: relative;
+}
+.main p {
+  color: azure;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0rem 3rem;
+  font-weight: 300;
+  font-style: italic;
+  border-bottom: darkblue;
+  width: 20rem;
+  position: absolute;
+  top: 0;
+  left: 60rem;
+}
+.main ul {
+  list-style: none;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+.linkedlist {
+  padding-bottom: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: initial;
+  margin-bottom: 2rem;
+}
+.linkedlist:hover {
+  border-bottom: 2px solid rgb(26, 109, 98);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5rem;
+  left: 30rem;
+
+  border-bottom: solid 2px rgb(204, 240, 245);
+}
+.siconI {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.siconT {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.siconF {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.siconL {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.siconI:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(95, 95, 230),
+    rgb(172, 58, 156)
+  );
+}
+.siconL:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(143, 143, 248),
+    rgb(57, 49, 160)
+  );
+}
+.siconF:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(165, 165, 238),
+    rgb(37, 40, 190)
+  );
+}
+.siconT:hover {
+  color: rgb(90, 90, 211);
+}

@@ -1,0 +1,26 @@
+.img {
+  overflow: hidden;
+  height: 40rem;
+  width: 100%;
+  opacity: 0.2;
+}
+.contact {
+  position: relative;
+}
+.contactdiv {
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.contactdiv h1:hover {
+  border-bottom: 2px solid purple;
+}
+.icon {
+  font-size: 2rem;
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
